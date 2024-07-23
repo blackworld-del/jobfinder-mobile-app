@@ -1,0 +1,38 @@
+name: jobfinder
+description: "A JobFinder Mobile Application"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_bloc: ^8.1.6
+  flutter_lints: ^3.0.0
+  flutter_svg: ^2.0.10+1
+  flutter_test:
+    sdk: flutter
+  fpdart: ^1.1.0
+  hexcolor: ^3.0.1
+  pocketbase: ^0.18.1
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Bold.ttf
+        - asset: assets/fonts/Nunito-Black.ttf
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
